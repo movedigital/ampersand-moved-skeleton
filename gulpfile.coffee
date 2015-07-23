@@ -108,7 +108,7 @@ gulp.task 'dev:sass', ->
     .pipe browserSync.stream()
 
 gulp.task 'watch', ['dev:assets', 'dev:sass', 'templatizer', 'dev:vendorJs'], ->
-  browserSync.init { port: 80 }
+  # browserSync.init { port: 80 }
   gulp.watch [sassGlob], ['dev:sass']
   gulp.watch [jadeGlob], ['templatizer']
   gulp.watch [assetsGlob], ['dev:assets']

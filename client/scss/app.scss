@@ -1,13 +1,11 @@
 //Plugins
-// @import "../bower_components/select2/src/scss/core.scss";
 
 // Partials
 @import "partials/base";
-@import "partials/icons";
+@import "partials/mixins";
 @import "partials/typography";
 @import "partials/animations";
-@import "partials/mixins";
-@import "partials/banners";
+@import "partials/icons";
 @import "partials/common";
 
 // Modules
