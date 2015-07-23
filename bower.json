@@ -1,0 +1,25 @@
+{
+  "name": "ampersand-moved-skeleton",
+  "version": "1.0.0",
+  "authors": [
+    "Vinicius Hagamenon <vinicius@movedigital.com.br>"
+  ],
+  "description": "AmpersandJS MoveD Skeleton with Gulp.",
+  "main": "app/app.coffee",
+  "keywords": [
+    "website",
+    "wiki"
+  ],
+  "license": "LicenseRef-LICENSE",
+  "homepage": "http://movedigital.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}

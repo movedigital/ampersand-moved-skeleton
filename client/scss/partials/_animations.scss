@@ -1,0 +1,37 @@
+.animate {
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+}
+
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.25, 1);
+}
+
+.fadeOutUp {
+  animation-name: fadeOutUp;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.25, 1);
+}
