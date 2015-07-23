@@ -10,7 +10,7 @@ app.extend
   init: ->
     # Create and attach our main view
     @mainView = new MainView
-      el: document.body
+      el: document.getElementById('main')
 
     # this kicks off our backbutton tracking (browser history)
     # and will cause the first matching handler in the router
